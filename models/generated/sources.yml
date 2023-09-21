@@ -1,0 +1,22 @@
+version: 2
+sources:
+- name: test_customer_83bc0d58_f08e_454b_b2a3_1573100147b0_quickbooks
+  quoting:
+    database: true
+    schema: false
+    identifier: false
+  tables:
+  - name: _airbyte_raw_accounts
+  - name: _airbyte_raw_bill_payments
+  - name: _airbyte_raw_bills
+  - name: _airbyte_raw_credit_memos
+  - name: _airbyte_raw_deposits
+  - name: _airbyte_raw_invoices
+  - name: _airbyte_raw_items
+  - name: _airbyte_raw_journal_entries
+  - name: _airbyte_raw_payments
+  - name: _airbyte_raw_purchases
+  - name: _airbyte_raw_refund_receipts
+  - name: _airbyte_raw_sales_receipts
+  - name: _airbyte_raw_transfers
+  - name: _airbyte_raw_vendor_credits
